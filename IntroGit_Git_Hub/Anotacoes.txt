@@ -1,0 +1,13 @@
+Link para download do Git: https://git-scm.com/downloads
+
+O Git Bash é um terminal estendido para otimizar o uso do Git.
+
+Criando um repertório pela primeira vez
+Entrar na pasta onde ficarão os arquivos do repositório
+Digitar git  init
+Digitar git config –global user.mail sintiaalmeida@gmail.com
+
+
+
+Se você já tiver executado o git em sua máquina, vc pode usar o git clone.
+Após criar o repositório no Git, copiar o link, entrar na pasta que vc quer clonar no seu computador e  digitar o seguinte comando <git clone endereço-web>
