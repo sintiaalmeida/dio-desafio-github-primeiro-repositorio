@@ -2,11 +2,27 @@ Link para download do Git: https://git-scm.com/downloads
 
 O Git Bash é um terminal estendido para otimizar o uso do Git.
 
-Criando um repertório pela primeira vez
+Criando um repertório pela primeira vez:
 Entrar na pasta onde ficarão os arquivos do repositório
 Digitar git  init
 Digitar git config –global user.mail sintiaalmeida@gmail.com
 
+Para fazer o controle de versões, ou seja atualizar as modificações digitar no terminal:
+
+$ git add .
+ 
+ ou 
+ 
+$ git add -A
+
+Esse comando adiciona ao controle de versões local, para enviar para o Git-Hub é preciso dar o comando git commit
+ e depois para enviar para a nuvem o git push:
+
+$ git commit -m "espaço para escrever o assunto do commit"
+$ git push origin main
+
+## origin main é a branch de destino escolhida
+## com o git status é possível saber o estado atual do diretório
 
 
 Se você já tiver executado o git em sua máquina, vc pode usar o git clone.
