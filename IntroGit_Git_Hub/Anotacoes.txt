@@ -1,11 +1,58 @@
+#Git / Git Hub
+
 Link para download do Git: https://git-scm.com/downloads
+
+O Git Hub é usado para:
+
+1. Controle de versões
+2. Armazenamento em nuvem
+3. Trabalho em equipe
+4. Melhorar seu código
+5. Reconhecimento
+
+##Comandos úteis:
+
+Para facilitar o uso do terminal, seguem alguns comandos úteis:
+
+No sistema operacional Windows
+- Mudar de pasta -> cd
+- Listar as pastas -> dir
+- Criar pastas/arquivos -> mkdir
+- Deletar astas/arquivos -> del/rmdir
+
+No sistema operacional UNIX
+- Mudar de pasta -> cd
+- Listar as pastas -> ls
+- Criar pastas/arquivos -> mkdir
+- Deletar astas/arquivos -> rm -rf
+
+
+## Algoritmo de encriptação
+Em criptografia, SHA-1 é uma função de dispersão criptográfica. A encriptação gera um conjunto de caracter identificador de 40 dígitos. Ao se fazer commit para o github, geralmente nos é gerado um desses. Esse é um dos motivos pelo qual o Git é tão seguro.
+
+##Objetos do Git
+Existem 4 tipos de objetos que são armazenados no git: 
+- BLOBS -> Bloco básico de composição. Cada arquivo no Git é armazenado como um objeto blob.
+- TREES -> Armazenam blobs. Um objeto de árvore contém referências a outros blobs ou subárvores.
+- COMMITS -> Um objeto commit contém a referência a outro objeto árvore e algumas outras informações (autor, committer etc.)
+-TAG —> Uma tag ou um objeto de tag é apenas outra referência a um objeto de confirmação e apenas facilita a referência.
+
+
+## Alguns comandos Git
+
+- Iniciar o Git -> git init
+- Iniciar o Versionamento -> git add
+- Criar um commit -> git commit
+
+
+## Criando um repertório pela primeira vez:
+- Entrar na pasta onde ficarão os arquivos do repositório
+- Digitar git init (esse comando irá criar um repositório)
+- Digitar git config –global user.mail "sintiaalmeida@gmail.com"
+- Digitar git config –global user.mail sintiaalmeida@gmail.com
 
 O Git Bash é um terminal estendido para otimizar o uso do Git.
 
-Criando um repertório pela primeira vez:
-Entrar na pasta onde ficarão os arquivos do repositório
-Digitar git  init
-Digitar git config –global user.mail sintiaalmeida@gmail.com
 
 Para fazer o controle de versões, ou seja atualizar as modificações digitar no terminal:
 
